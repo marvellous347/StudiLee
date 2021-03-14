@@ -12,13 +12,13 @@ body{
   background-color: #86B2F4;
   background-image: url("../img/reg_bg2.png");
   background-size: 100%;
-  background-position-y: -325px;
-  background-position-x: 28px;
+  background-position-y: -45vh;
+  background-position-x: 1.5vw;
 }
 
 .StudiLee{
   position: absolute;
-  top: 21px;
+  top: 3vh;
   left: 42vw;
   font-size: 42px;
   font-family: 'Rock Salt', cursive;
@@ -73,8 +73,8 @@ div{
   height: 20px;
   font-size: 12px;
   border-radius: 30px;
-  left: -260px;
-  top: -95px;
+  left: -16.5vw;
+  top: -13.5vh;
   outline: none;
   cursor: pointer;
   box-shadow: 1.3px 1.8px 0px rgba(0,0,0,0.5);
