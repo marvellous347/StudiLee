@@ -1,0 +1,115 @@
+html {
+  overflow:  hidden; 
+}
+
+.Name{
+  position: relative;
+  left: 45vw;
+  top: 1.5vh;
+  font-size: 45px;
+  font-family: 'Rock Salt', cursive;
+}
+
+img{
+  position: relative;
+  top: -23.6vh;
+  left: 5vw;
+  pointer-events:none;
+}
+
+body{
+  position: absolute;
+  background-color: #F3F7FD;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+header{
+  background-color: #F3F7FD;
+  width: 60vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.login{
+  position: relative;
+  text-align: center;
+  outline: none;
+  bottom: 65vh;
+  left: 71vw;
+  width: 18vw;
+  height: 7vh;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: black;
+  font-size: 22px;
+  cursor: text;
+  box-shadow: 1.3px 1.8px 0px rgba(0,0,0,0.5);
+}
+
+.passw{
+  position: relative;
+  text-align: center;
+  outline: none;
+  bottom: 55vh;
+  left: 52.7vw;
+  width: 18vw;
+  height: 7vh;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: black;
+  font-size: 22px;
+  cursor: text;
+  box-shadow: 1.3px 1.8px 0px rgba(0,0,0,0.5);
+}
+
+.button_log{
+  position: relative;
+  text-align: center;
+  outline: none;
+  background-color: #C4C4C4;
+  bottom: 46vh;
+  left: 40vw;
+  width: 7vw;
+  height: 4vh;
+  border-radius: 15px;
+  border-width: 0px;
+  border-color: black;
+  font-size: 13.5px;
+  cursor: pointer;
+  box-shadow: 1.3px 1.8px 0 rgba(0,0,0,0.5);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button_reg{
+  position: relative;
+  text-align: center;
+  outline: none;
+  background-color: #C4C4C4;
+  bottom: 41vh;
+  left: 32.7vw;
+  width: 7vw;
+  height: 4vh;
+  border-radius: 15px;
+  border-width: 0px;
+  border-color: black;
+  font-size: 13.5px;
+  cursor: pointer;
+  box-shadow: 1.3px 1.8px 0 rgba(0,0,0,0.5);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.reset_passw a{
+  position: relative;
+  outline: none;
+  bottom: 43.5vh;
+  left: 76.91vw;
+  font-size: 13px;
+  color: #86B2F4;
+  text-decoration: none;
+  cursor: help;
+  font-family: 'Open Sans', sans-serif;
+}

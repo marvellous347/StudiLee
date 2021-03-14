@@ -1,0 +1,144 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #86B2F4;
+  background-image: url("../img/reg_bg2.png");
+  background-size: 100%;
+  background-position-y: -325px;
+  background-position-x: 28px;
+}
+
+.StudiLee{
+  position: absolute;
+  top: 21px;
+  left: 42vw;
+  font-size: 42px;
+  font-family: 'Rock Salt', cursive;
+  pointer-events: none;
+}
+
+img{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 69.2%;
+  pointer-events: none;
+}
+
+div{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 405px;
+  margin: 0;
+  padding: 0;
+}
+
+.full_name{
+  text-align: center;
+  width: 270px;
+  height: 45px;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+  cursor: text;
+  box-shadow: 1.3px 1.8px 0px rgba(0,0,0,0.5);
+  border-width: 1px;
+}
+
+.login{
+  text-align: center;
+  width: 270px;
+  height: 45px;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+  cursor: text;
+  box-shadow: 1.3px 1.8px 0px rgba(0,0,0,0.5);
+  border-width: 1px;
+}
+
+.switch_log{
+  position: relative;
+  width: 75px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 30px;
+  left: -260px;
+  top: -95px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 1.3px 1.8px 0px rgba(0,0,0,0.5);
+  border-width: 1px;
+}
+
+.date{
+  text-align: center;
+  width: 270px;
+  height: 45px;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+  box-shadow: 1.3px 1.8px 0px rgba(0,0,0,0.5);
+  border-width: 1px;
+}
+
+.pass{
+  text-align: center;
+  width: 270px;
+  height: 45px;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+  cursor: text;
+  box-shadow: 1.3px 1.8px 0px rgba(0,0,0,0.5);
+  border-width: 1px;
+}
+
+.confirm_pass{
+  text-align: center;
+  width: 270px;
+  height: 45px;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+  cursor: text;
+  box-shadow: 1.3px 1.8px 0px rgba(0,0,0,0.5);
+  border-width: 1px;
+}
+
+.stud_book{
+  text-align: center;
+  width: 270px;
+  height: 45px;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+  cursor: text;
+  box-shadow: 1.3px 1.8px 0px rgba(0,0,0,0.5);
+  border-width: 1px;
+}
+
+.registration{
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 20px;
+  outline: none;
+  border-width: 0px;
+  border-color: black;
+  font-size: 13.5px;
+  cursor: pointer;
+  box-shadow: 1.3px 1.8px 0 rgba(0,0,0,0.5);
+  font-family: 'Open Sans', sans-serif;
+}
